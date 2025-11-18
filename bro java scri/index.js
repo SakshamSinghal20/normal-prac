@@ -267,3 +267,5 @@ const rectangle = new Rectangle(3,4);
 console.log(rectangle.width);
 console.log(rectangle.height);
 console.log(rectangle.area);
+
+
