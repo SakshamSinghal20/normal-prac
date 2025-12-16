@@ -11,9 +11,9 @@
     box-sizing: border-box;
 }
 body{
-    background: #0e0e10;
+    background: var(--bg-dark);
     font-family: Inter, sans-serif;
-    color: white;
+    color: var(--text-primary);
 }
 .navWrapper{
     width: 100%;
@@ -30,14 +30,12 @@ body{
 }
 .logo{
     font-size:20px;
-    color:white;
     font-weight: 600;
     letter-spacing: -0.5px;
     cursor: pointer;
 }
 .links{
     gap:32px;
-    color:white;
     display:flex;
 }
 .links a{
